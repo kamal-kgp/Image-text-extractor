@@ -28,30 +28,31 @@ A simple MERN stack application where users can upload an image and input text, 
 
 2. **Install dependencies**
 
-Navigate to both the frontend and backend directories and run:
+    Navigate to both the frontend and backend directories and run:
     ```sh
     npm install
+    
 
 3. **Environment Variables**
 
-Create a .env file in the src directory inside backend directory and add your MongoDB URI and any other environment variables:
+    Create a .env file in the src directory inside backend directory and add your MongoDB URI and any other environment variables:
 
-.env
+    .env
     ```sh
     MONGO_URI = your_mongo_db_connection_string
     PORT = 5001
 
 4. **Run the application**
 
-In the src directory inside backend directory, start the server:
+    In the src directory inside backend directory, start the server:
     ```sh
     node server.js
 
-In the frontend directory, start the client:
+    In the frontend directory, start the client:
     ```sh
     npm start
 
-The application will be available at http://localhost:3000.
+    The application will be available at http://localhost:3000.
 
 
 ## Usage
@@ -67,10 +68,10 @@ The application will be available at http://localhost:3000.
 
 
 ## Technologies
-1. **Frontend: React, Axios**
-2. **Backend: Node.js, Express.js, Mongoose, multer**
-3. **Database: MongoDB**
-4. **Image Processing: Tesseract.js**
+- **Frontend: React, Axios**
+- **Backend: Node.js, Express.js, Mongoose, multer**
+- **Database: MongoDB**
+- **Image Processing: Tesseract.js**
 
 
 ## Project Structure
