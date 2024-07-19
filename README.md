@@ -58,12 +58,15 @@ A simple MERN stack application where users can upload an image and input text, 
 ## Usage
 
 1. **Upload an image**
+
      Click on the "choose file" button to select and upload an image file
 
 3. **Input text**
+
     Enter language into the provided input field.
 
 4. **View extracted content**
+
     The extracted text content from the image will be displayed on the screen.
 
 
